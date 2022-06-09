@@ -59,14 +59,11 @@ function fetchData() {
                         ],
                         borderWidth: 1,
                         borderColor: '#777',
-                        minHeight: 100,
 
                     }]
                 },
                 
                 options: {
-                    responsive: true,
-                    maintainAspectRatio: false
 
                 }
             });
