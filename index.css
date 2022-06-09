@@ -1,0 +1,29 @@
+td {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+th {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+table {
+    position: absolute;
+    width: 70%;
+    margin-left:  15%;
+    margin-right : 15%;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* The image used */
+    position: fixed;
+    background-image: url("carpark.jpg");
+    height:100%;
+    width: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+}
+
