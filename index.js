@@ -43,7 +43,7 @@ function fetchData() {
                 data: {
                     labels: categories,
                     datasets: [{
-                        label: 'Most common serious crime in SG in 2020',
+                        label: 'Hide/Unhide',
                         data: dataset_2020,
                         backgroundColor: [
                             'rgba(255,99,132,0.6)',
@@ -55,10 +55,12 @@ function fetchData() {
                             'rgba(5,9,1,0.6)',
                             'rgba(25,9,32,0.6)',
                             'rgba(75,19,2,0.6)',
-                            'rgba(255,99,132,0.6)',
+                            'rgba(25,99,132,0.6)',
                         ],
                         borderWidth: 1,
                         borderColor: '#777',
+                        barPercentage: 0.5,
+                        minBarLength: 20,
 
                     }]
                 },
